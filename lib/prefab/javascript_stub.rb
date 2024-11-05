@@ -42,7 +42,7 @@ module Prefab
     private
 
     def underlying_value(value)
-      v = Prefab::ConfigValueUnwrapper.new(value, @client.resolver).unwrap(raw_json: true)
+      v = Prefab::ConfigValueUnwrapper.new(value, @client.resolver).unwrap(raw_json: false)
       case v
       when Google::Protobuf::RepeatedField
         v.to_a
