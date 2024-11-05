@@ -6,12 +6,12 @@
 
 Gem::Specification.new do |s|
   s.name = "prefab-cloud-ruby".freeze
-  s.version = "1.8.7"
+  s.version = "1.8.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Jeff Dwyer".freeze]
-  s.date = "2024-10-25"
+  s.date = "2024-11-25"
   s.description = "Feature Flags, Live Config, and Dynamic Log Levels as a service".freeze
   s.email = "jdwyer@prefab.cloud".freeze
   s.extra_rdoc_files = [
